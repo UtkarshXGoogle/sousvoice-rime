@@ -124,13 +124,14 @@ tts=rime.TTS(
 | Provider | Rime |
 | Model | `coda` |
 | Speaker | `lyra` |
-| Language | To be verified from final shipped configuration |
-| Endpoint | To be verified from final shipped configuration |
-| Audio format | To be verified from final shipped configuration |
-| Transport | To be verified from final shipped configuration |
+| Language | `eng` |
+| Endpoint | `https://users.rime.ai/v1/rime-tts` |
+| Audio format | PCM |
+| Sample rate | 22050 Hz |
+| Transport | HTTP |
 
-The final submission documentation will use the exact configuration exercised
-during the recorded demo.
+The configuration above is the configuration used by the shipped Rime TTS
+integration.
 
 ---
 
@@ -416,9 +417,9 @@ sousvoice-rime/
 
 ### Final submission
 
-- [ ] Verify final Rime language
-- [ ] Verify Rime endpoint
-- [ ] Verify Rime audio format
-- [ ] Verify Rime transport
-- [ ] Finalize reproducible evidence
+- [x] Verify final Rime language
+- [x] Verify Rime endpoint
+- [x] Verify Rime audio format
+- [x] Verify Rime transport
+- [x] Finalize reproducible evidence
 - [ ] Record final demo
